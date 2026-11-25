@@ -1,0 +1,125 @@
+{
+  "version": 1,
+  "salon": {
+    "name": "ÉCLAT",
+    "address": "Сергиев Посад, учебный проект",
+    "bookingDays": 30,
+    "leadMinutes": 60
+  },
+  "services": [
+    {
+      "id": "haircut",
+      "name": "Стрижка и форма",
+      "category": "Волосы",
+      "price": 2300,
+      "duration": 60,
+      "description": "Консультация, мытьё, индивидуальная форма и лёгкая укладка."
+    },
+    {
+      "id": "color",
+      "name": "Окрашивание в один тон",
+      "category": "Волосы",
+      "price": 6500,
+      "duration": 150,
+      "description": "Подбор оттенка, бережное окрашивание и завершающий уход."
+    },
+    {
+      "id": "styling",
+      "name": "Вечерняя укладка",
+      "category": "Волосы",
+      "price": 2800,
+      "duration": 60,
+      "description": "Выразительные линии и текстура для вашего особенного вечера."
+    },
+    {
+      "id": "manicure",
+      "name": "Маникюр с покрытием",
+      "category": "Ногти",
+      "price": 1900,
+      "duration": 90,
+      "description": "Обработка, форма и однотонное покрытие гель-лаком."
+    },
+    {
+      "id": "pedicure",
+      "name": "Эстетический педикюр",
+      "category": "Ногти",
+      "price": 2700,
+      "duration": 90,
+      "description": "Деликатная обработка, уход за стопами и аккуратное покрытие."
+    },
+    {
+      "id": "brows",
+      "name": "Архитектура бровей",
+      "category": "Брови",
+      "price": 1200,
+      "duration": 45,
+      "description": "Моделирование формы, коррекция и окрашивание."
+    },
+    {
+      "id": "facial",
+      "name": "Увлажняющий уход",
+      "category": "Уход",
+      "price": 3500,
+      "duration": 60,
+      "description": "Очищение, увлажняющая маска и завершающий уход за кожей."
+    },
+    {
+      "id": "massage",
+      "name": "Расслабляющий массаж",
+      "category": "Уход",
+      "price": 2900,
+      "duration": 60,
+      "description": "Мягкая расслабляющая техника для спины, плеч и шеи."
+    }
+  ],
+  "masters": [
+    {
+      "id": "anna",
+      "name": "Анна Морозова",
+      "role": "Стилист-колорист",
+      "experience": "7 лет практики",
+      "services": [
+        "haircut",
+        "color",
+        "styling"
+      ],
+      "initials": "АМ",
+      "color": "#dcc9be"
+    },
+    {
+      "id": "elena",
+      "name": "Елена Белова",
+      "role": "Мастер ногтевого сервиса",
+      "experience": "5 лет практики",
+      "services": [
+        "manicure",
+        "pedicure"
+      ],
+      "initials": "ЕБ",
+      "color": "#d6c6ca"
+    },
+    {
+      "id": "maria",
+      "name": "Мария Соколова",
+      "role": "Бровист, специалист по уходу",
+      "experience": "6 лет практики",
+      "services": [
+        "brows",
+        "facial"
+      ],
+      "initials": "МС",
+      "color": "#c6cec5"
+    },
+    {
+      "id": "irina",
+      "name": "Ирина Волкова",
+      "role": "Специалист по массажу",
+      "experience": "8 лет практики",
+      "services": [
+        "massage"
+      ],
+      "initials": "ИВ",
+      "color": "#d8ccb8"
+    }
+  ]
+}
